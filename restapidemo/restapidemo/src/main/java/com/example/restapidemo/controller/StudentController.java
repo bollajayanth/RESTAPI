@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.restapidemo.model.*;
 import com.example.restapidemo.view.*;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://localhost:8080")
 @RestController
 @RequestMapping("/api/v1")
 public class StudentController {
